@@ -3,9 +3,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_USER = "patle12
-
-"
+        DOCKER_USER = "patle12"
 
         BACKEND_IMAGE = "patle12/student-task-backend"
         FRONTEND_IMAGE = "patle12/student-task-frontend"
